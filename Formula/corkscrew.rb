@@ -1,7 +1,7 @@
 
 VERSION = '1.1.2'
 
-class CorkscrewDeploys < Formula
+class Corkscrew < Formula
   desc "Deploy and run code on another machine"
   homepage "https://github.com/windborne/corkscrew"
   version VERSION
