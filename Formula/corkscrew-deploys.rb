@@ -8,10 +8,10 @@ class CorkscrewDeploys < Formula
 
   if Hardware::CPU.intel?
     url "https://wb-data-public.s3.us-west-2.amazonaws.com/corkscrew/corkscrew-#{VERSION}-osx-x86_64.tar.gz"
-    sha256 "ce3d4d480da7b3bee10addb2a614ef1595061d4b2c0193ef7da91ec04a791015"
+    sha256 "8c6048f273467ed9e4c3eb79aa893991315dbe3bed4e3f9a0cee2f1da1c1cf9c"
   else
     url "https://wb-data-public.s3.us-west-2.amazonaws.com/corkscrew/corkscrew-#{VERSION}-osx-arm64.tar.gz"
-    sha256 "0850843730ec76e8f52234cb0b599c7727a7bef6f682b1cf8a7a50c6f6851f3b"
+    sha256 "7348a897703f613c36a5ad15916cd61dca54b6eabd7e0d987dfecf34255f43d2"
   end
 
   def install
